@@ -63,4 +63,18 @@ For example, we could create the file `requirements.txt` and its content:
      pip install -r requirements.txt
      
  Should install all the modules listed on the file.
+ 
+ Tips : 
+Run one of the following commands(lets say we are installing glob2):
+
+pip install glob2 
+
+If that throws an error(for example permissions) then run :
+
+python -m pip install glob2 
+
+If you have multiple Pythons (both version 2 and 3) installed you may need to use pip3:
+
+pip3 install glob2 
+
 
