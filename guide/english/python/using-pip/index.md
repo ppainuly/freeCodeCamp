@@ -67,14 +67,17 @@ For example, we could create the file `requirements.txt` and its content:
  Tips : 
 Run one of the following commands(lets say we are installing glob2):
 
-pip install glob2 
+	pip install glob2 
 
 If that throws an error(for example permissions) then run :
 
-python -m pip install glob2 
+	python -m pip install glob2 
 
-If you have multiple Pythons (both version 2 and 3) installed you may need to use pip3:
+If multiple Pythons (both version 2 and 3) are installed then use pip3:
 
-pip3 install glob2 
+	pip3 install glob2 
 
+Incase more issues arise, run:
+
+	python3 -m pip install glob2 
 
